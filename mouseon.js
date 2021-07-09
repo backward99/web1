@@ -2,6 +2,13 @@ function mousego(){
   $('#gnbsub1').show();
 };
 
+function pain(){
+  fetch('css').then(function(response){
+    response.text().then(function(text){
+      alert(text);
+    })
+  })
+}
 
 function mouseway(){
     $('#gnbsub1').hide();
