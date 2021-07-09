@@ -3,39 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>My_Produce</title>
-    <style>
-      a{
-        color:black;
-        text-decoration:none;
-
-      }
-
-      h1{
-        font-size: 50px;
-        text-align: center;
-      }
-      ol{
-        text-align: center;
-      }
-      li{
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="mouseon.js"></script>
   </head>
-  <body>
+  <body class="cat">
     <h1>처음</h1>
+    <div class="grid_r">
+      <div class="grid_c">
+        <ul>
+          <li>
+            <a href="">대학소개</a>
+          	<div class="disnone">
+              <ul>
+                <li>
+                  <dl class="depth2_1">
+                    <dt><a href="/web/www/10">열린총장실</a></dt>
+                    <dd><a href="/web/www/17">총장인사말</a></dd>
+                    <dd><a href="/web/www/18">총장주요활동</a></dd>
+                    <dd><a href="/web/www/221">주간일정</a></dd>
+                    <dd><a href="/web/www/517">업무추진비</a></dd>
+                    <dd><a href="/web/www/19">건의사항</a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="depth2_2">	<dt><a href="/web/www/11">대학발자취</a></dt>
+                    <dd><a href="/web/www/20">연혁</a></dd>	<dd><a href="/web/www/21">사진으로 보는 100주년</a></dd>
+                    <dd><a href="/web/www/584">홍보동영상</a></dd>	<dd><a href="/web/www/587">학교상징</a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="depth2_3">	<dt><a href="/web/www/12">VISION2030</a></dt>
+                    <dd><a href="/web/www/544">수립배경</a></dd>	<dd><a href="/web/www/545">비전</a></dd>
+                    <dd><a href="/web/www/546">대학특화</a></dd>	<dd><a href="/web/www/547">교육과정혁신</a></dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="depth1_1" class="" onmouseover="mousego()" onmouseout="mouseway()">
+            <a href="1.html" target="_blank"><strong>페이지</strong> 소개</a>
+            <div id="gnbsub1" class="disnone">
+              <ul>
+                <li>
+                  <dl class="depth2_1">
+                    <!-- <dt><a href="/web/www/10">열린총장실</a></dt> -->
+                    <dd><a href="https://www.google.com/search?q=%EC%A0%84%EC%82%B0%EC%A7%81+%EC%9D%80%ED%96%89&ei=NWfiYI-pHYf80gTI6KzgCg&oq=%EC%A0%84%EC%82%B0%EC%A7%81+%EC%9D%80%ED%96%89&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB46BggAEAcQHjoICAAQCBAHEB5KBAhBGAFQxDxY60Bg8kNoAnAAeACAAZYBiAHfBZIBAzAuNZgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjPl9-a6srxAhUHvpQKHUg0C6wQ4dUDCA4&uact=5" target="_blank">은행 전산원</a></dd>
+                    <dd><a href="#">프로그래밍</a></dd>
+                    <dd><a href="https://career.nexon.com/user/recruit/notice/noticeList?joinCorp=NX" target="_blank">넥슨 채용</a></dd>
+                    <dd><a href="https://www.google.com/search?q=%EC%A0%84%EC%82%B0%EC%A7%81+%EB%B3%91%EC%9B%90&oq=%EC%A0%84%EC%82%B0%EC%A7%81+%EB%B3%91%EC%9B%90&aqs=chrome..69i57j0i8i30l9.2259j0j4&sourceid=chrome&ie=UTF-8" target="_blank">병원 전산원</a></dd>
+                    <dd><a href="https://cafe.naver.com/dokkm" target="_blank">네이버 취직카페</a></dd>
+                    <dd><a href="https://www.google.com/search?q=%EA%B2%BD%EC%98%81%ED%95%99%EA%B3%BC+%EB%B6%80%EC%A0%84%EA%B3%B5&oq=%EA%B2%BD%EC%98%81%ED%95%99%EA%B3%BC+%EB%B6%80%EC%A0%84%EA%B3%B5&aqs=chrome..69i57j0i5i30l2.6590j0j4&sourceid=chrome&ie=UTF-8" target="_blank">경영학과 부전공 어떻게 할지 찾아보기</a></dd>
+                    <dd>수강신청 날짜 : 7월 19일 ~ 7월 23일</dd>
 
-    <ol>
-      <li><a href="1.html">페이지 소개</a></li>
-      <li><a href="2.html" style="color:blue;text-decoration:underline;">페이지를 만든 이유</a></li>
-      <li><a href="3.html">페이지 보기</a></li>
-    </ol>
-
-    <a href="https://gns.gntech.ac.kr/GNTECH/index.html" target="_blank">경남과학기술대학교 학사 종합</a>
-    <p style="margin-top:45px">이 페이지는 <strong>스스로 공부</strong>하기 위해
-    만들고 있다. 어떤방향으로 만들어 질지는 모르겠지만기록하고 싶어하는 내용이
-    다 들어갔으면 좋겠다.</p><p>기록할 수 있는 내용이 별로 없지만 <u>포트폴리오</u>에
-    적힐 만한 내용이 있다면 여기에 차근차근 기록해 나가는 것이 목표.</p>
-    <img src="스크린샷(1).png" width="50%">
+                    <dd><a href="https://opentutorials.org/course/3084/18437" target="_blank">공부하기</a></dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="2.html" target="_blank"><strong>정보</strong> 찾아보기</a></li>
+          <li><a href="3.html" target="_blank"><strong>조언</strong> 구하기</a></li>
+          <li><a href="4.html" target="_blank">프로젝트 <strong>목표</strong></a></li>
+          <li><a href="5.html" target="_blank">공부해야할 <strong>과목</strong></a></li>
+          <li><a href="6.html" target="_blank"><strong>포트폴리오</strong> 작성</a></li>
+        </ul>
+      </div>
+      <div class="">
+        <a href="https://gns.gntech.ac.kr/GNTECH/index.html" target="_blank">경남과학기술대학교 학사 종합
+        몰랐는데 그리드로 구성하고 링크밖에 없으면 칸 전체가 링크화 되네</a>
+      </div>
+      <div class="">
+        제대로바뀌고 있는데 적용할 대상이 없어서 그런거같네 지정한게 더 우선순위가 높아서
+      </div>
+      <!-- <div>
+        <img src="screenshot.png" width="100%">
+      </div> -->
+    </div>
   </body>
 </html>
