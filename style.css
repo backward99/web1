@@ -3,7 +3,7 @@ body.cat{
   padding: 0;
   background-image: url('cat.jpg');
   background-color: #333333;
-  color:black;
+  color:white;
 }
 .disnone{
   display: none;
@@ -21,9 +21,17 @@ li a{
   padding: 16px;
   text-decoration: none;
 }
+
+
+dl.depth2_1 dd a{
+  width:200px;
+}
+label{
+  margin: 0 0 0 400px;
+}
 a{
-  color: black;
-  /* text-decoration:none; */
+  color: rgb(161, 156, 156);
+  text-decoration:none;
 
 }
 .grid_c{
@@ -52,12 +60,58 @@ h1{
   margin-right: 5px;
   float: left;
 }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media(max-width:1200px) {
   #gnbsub1{
 
     left:10%;
 
   }
+}
+.cursor{
+  cursor: pointer;
+}
+
+#inputText{
+  width: 200px;
+  height: 26px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 15px;
+  vertical-align: middle;
+}
+#plus{
+  width: 50px;
+  height: 26px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.ListField{
+  top:130px;
+  width:265px;
+  height: 374px;
+  padding:5px;
+  border:1px solid  rgb(161, 156, 156);
+  border-top:3px solid  rgb(161, 156, 156);
+  margin: 0 0 0 293px;
+
+} 
+.okButton{
+  margin: 0 0 0 502px;
+}
+
+#back{
+  margin: 0 0 0 292px;
+}
+#delete{
+  margin: 0 0 0 135px;
 }
 #gnbsub1{
   display:none;
@@ -73,7 +127,7 @@ h1{
   background:#333333;
 
 }
-div.grid_c ul li div#gnbsub1 ul li{
+div .grid_c ul li div #gnbsub1 ul li{
   margin-left: 5px;
   margin-right: 5px;
   width: auto;

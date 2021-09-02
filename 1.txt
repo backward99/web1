@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="kr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My_Produce</title>
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
-  <body class="cat">
-    <h1>To-Do List</h1>
-    <div class="grid_r">
-      <div class="grid_c">
-        <div class="">
-          <form action="1.php" enctype="multipart/form-data" method="post">
-            <input type="hidden" value="30000" name="MAX_FILE_SIZE">
-            <input type="file" name="userfile">
-            <input type="submit" value="upload">
-          </form>
-          <a href="https://backward99.github.io/web1/practice.html">깃허브로 들어가기</a>
-          <a href="practice.html">비트나미로 들어가기</a>
-          
-        </div>
-        <div>
-          <input type="button"  value="ajax" onclick="fetch('css').then(function(response){
-            response.text().then(function(text){
-              alert(text);
-            })
-          })">
-        </div>
-        <ul>
-          <li>
+<li>
             <a href="">대학소개</a>
           	<div class="disnone">
               <ul>
@@ -83,44 +53,3 @@
           <li><a href="4.html" target="_blank">프로젝트 <strong>목표</strong></a></li>
           <li><a href="5.html" target="_blank">공부해야할 <strong>과목</strong></a></li>
           <li><a href="6.html" target="_blank"><strong>포트폴리오</strong> 작성</a></li>
-        </ul>
-      </div>
-      <div class="">
-        <a href="https://gns.gntech.ac.kr/GNTECH/index.html" target="_blank">경남과학기술대학교 학사 종합
-        몰랐는데 그리드로 구성하고 링크밖에 없으면 칸 전체가 링크화 되네</a>
-      </div>
-      <div class="">
-        제대로바뀌고 있는데 적용할 대상이 없어서 그런거같네 지정한게 더 우선순위가 높아서
-      </div>
-      <div class="grid">
-        <div>
-          <label for="ready">해야할 일</label>
-        </div>
-        <div>
-          <label for="complet">완료한 일</label>      
-        
-        </div>
-        <div class="ListField"  id="ListField">
-          <input type="text" id="inputText">
-          <button id="plus">+</button>
-        </div>
-        <div class="ListField" id="CompletList">
-        </div>
-        <div class="okButton">
-          <!-- <button id="btComplet">완료하기</button> -->
-          <input type="button" value="완료하기" id="btComplet">
-        </div>
-        <div class="">
-          <input id="back" type="button" value="되돌리기">
-          <input id="delete" type="button" value="삭제하기">
-        </div>
-      </div>
-      <div onclick="alert('좀 돼라')"> 이게 클릭이 되면 되네</div>
-      <!-- <div>
-        <img src="screenshot.png" width="100%">
-      </div> -->
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="mouseon.js"></script>
-  </body>
-</html>
